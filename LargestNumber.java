@@ -25,6 +25,9 @@ public class LargestNumber {
             System.out.println("The largest number is: " + num3);
         }
 
+        int avg= (num1+num2+num3)/3;
+        System.out.println("The average of the three numbers is: "+avg);
+
         // Close the scanner
         scanner.close();
     }
